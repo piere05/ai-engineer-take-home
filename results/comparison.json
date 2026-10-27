@@ -1,0 +1,360 @@
+{
+  "baseline": {
+    "mode": "baseline",
+    "notes": "baseline is a local first-page/60-DPI OCR control, not the original Gemini model; the Gemini API baseline could not be run without a supplied key.",
+    "reports_evaluated": 8,
+    "row_precision": 0.9,
+    "row_recall": 0.587,
+    "exact_row_accuracy_over_gold": 0.5507,
+    "value_accuracy_on_matched_rows": 0.9753,
+    "unit_accuracy_on_matched_rows": 0.9506,
+    "reference_range_accuracy_on_matched_rows": 0.9877,
+    "mean_latency_seconds_per_report": 0.577,
+    "totals": {
+      "pred_rows": 90,
+      "gold_rows": 138,
+      "matched": 81,
+      "exact": 76,
+      "value_correct": 79,
+      "unit_correct": 77,
+      "range_correct": 80
+    },
+    "per_report": [
+      {
+        "report": "report_01.pdf",
+        "gold_rows": 14,
+        "predicted_rows": 14,
+        "matched_rows": 14,
+        "exact_rows": 13,
+        "value_correct": 13,
+        "unit_correct": 14,
+        "range_correct": 14,
+        "latency_seconds": 0.082,
+        "unmatched_gold": [],
+        "unmatched_predictions": []
+      },
+      {
+        "report": "report_02.pdf",
+        "gold_rows": 16,
+        "predicted_rows": 16,
+        "matched_rows": 16,
+        "exact_rows": 16,
+        "value_correct": 16,
+        "unit_correct": 16,
+        "range_correct": 16,
+        "latency_seconds": 0.122,
+        "unmatched_gold": [],
+        "unmatched_predictions": []
+      },
+      {
+        "report": "report_03.pdf",
+        "gold_rows": 8,
+        "predicted_rows": 8,
+        "matched_rows": 8,
+        "exact_rows": 8,
+        "value_correct": 8,
+        "unit_correct": 8,
+        "range_correct": 8,
+        "latency_seconds": 0.056,
+        "unmatched_gold": [],
+        "unmatched_predictions": []
+      },
+      {
+        "report": "report_05.pdf",
+        "gold_rows": 14,
+        "predicted_rows": 5,
+        "matched_rows": 0,
+        "exact_rows": 0,
+        "value_correct": 0,
+        "unit_correct": 0,
+        "range_correct": 0,
+        "latency_seconds": 1.698,
+        "unmatched_gold": [
+          "Haemoglobin",
+          "Total RBC Count",
+          "Packed Cell Volume (PCV)",
+          "MCV",
+          "MCH",
+          "MCHC",
+          "RDW-CV",
+          "Total WBC Count",
+          "Neutrophils",
+          "Lymphocytes",
+          "Eosinophils",
+          "Monocytes",
+          "Basophils",
+          "Platelet Count"
+        ],
+        "unmatched_predictions": [
+          "Tes R6 Cowe",
+          "Pact Cl Voie",
+          "ot m3",
+          "Tost WoC at",
+          "Newco"
+        ]
+      },
+      {
+        "report": "report_06.pdf",
+        "gold_rows": 12,
+        "predicted_rows": 0,
+        "matched_rows": 0,
+        "exact_rows": 0,
+        "value_correct": 0,
+        "unit_correct": 0,
+        "range_correct": 0,
+        "latency_seconds": 1.399,
+        "unmatched_gold": [
+          "Colour",
+          "Clarity",
+          "pH",
+          "Specific Gravity",
+          "Albumin",
+          "Sugar",
+          "Ketones",
+          "Leucocytes",
+          "Erythrocytes",
+          "Squamous Epithelial Cells",
+          "CRP",
+          "E.S.R. (Westergren)"
+        ],
+        "unmatched_predictions": []
+      },
+      {
+        "report": "report_08.jpg",
+        "gold_rows": 6,
+        "predicted_rows": 6,
+        "matched_rows": 5,
+        "exact_rows": 4,
+        "value_correct": 5,
+        "unit_correct": 4,
+        "range_correct": 5,
+        "latency_seconds": 0.477,
+        "unmatched_gold": [
+          "TG"
+        ],
+        "unmatched_predictions": [
+          "G"
+        ]
+      },
+      {
+        "report": "report_09.jpg",
+        "gold_rows": 14,
+        "predicted_rows": 11,
+        "matched_rows": 8,
+        "exact_rows": 6,
+        "value_correct": 8,
+        "unit_correct": 6,
+        "range_correct": 8,
+        "latency_seconds": 0.689,
+        "unmatched_gold": [
+          "Hemoglobin (Hb)",
+          "RBC Count",
+          "Hematocrit",
+          "RDW",
+          "Basophils",
+          "Platelets"
+        ],
+        "unmatched_predictions": [
+          "REC Count",
+          "ffimantooris",
+          "ROW"
+        ]
+      },
+      {
+        "report": "report_11.pdf",
+        "gold_rows": 54,
+        "predicted_rows": 30,
+        "matched_rows": 30,
+        "exact_rows": 29,
+        "value_correct": 29,
+        "unit_correct": 29,
+        "range_correct": 29,
+        "latency_seconds": 0.096,
+        "unmatched_gold": [
+          "RBC Count",
+          "Urea",
+          "Creatinine",
+          "Serum Uric Acid",
+          "Sodium (Na+)",
+          "Potassium (K+)",
+          "Chloride (Cl-)",
+          "Triiodothyronine (T3)",
+          "Thyroxine (T4)",
+          "Thyroid Stimulating Hormone",
+          "Glycosylated Haemoglobin (HbA1c)",
+          "Glucose - Fasting",
+          "Glucose - PP",
+          "25-Hydroxy Vitamin D",
+          "Cyanocobalamin (B12)",
+          "Color",
+          "Appearance",
+          "Reaction (pH)",
+          "Sp. Gravity",
+          "Urine Protein",
+          "Urine Glucose",
+          "Ketone Bodies",
+          "Pus Cells (WBC)",
+          "Epithelial Cells"
+        ],
+        "unmatched_predictions": []
+      }
+    ]
+  },
+  "final": {
+    "mode": "final",
+    "notes": "baseline is a local first-page/60-DPI OCR control, not the original Gemini model; the Gemini API baseline could not be run without a supplied key.",
+    "reports_evaluated": 8,
+    "row_precision": 0.9453,
+    "row_recall": 0.8768,
+    "exact_row_accuracy_over_gold": 0.7174,
+    "value_accuracy_on_matched_rows": 0.9256,
+    "unit_accuracy_on_matched_rows": 0.876,
+    "reference_range_accuracy_on_matched_rows": 0.9421,
+    "mean_latency_seconds_per_report": 4.125,
+    "totals": {
+      "pred_rows": 128,
+      "gold_rows": 138,
+      "matched": 121,
+      "exact": 99,
+      "value_correct": 112,
+      "unit_correct": 106,
+      "range_correct": 114
+    },
+    "per_report": [
+      {
+        "report": "report_01.pdf",
+        "gold_rows": 14,
+        "predicted_rows": 14,
+        "matched_rows": 14,
+        "exact_rows": 13,
+        "value_correct": 13,
+        "unit_correct": 14,
+        "range_correct": 14,
+        "latency_seconds": 0.059,
+        "unmatched_gold": [],
+        "unmatched_predictions": []
+      },
+      {
+        "report": "report_02.pdf",
+        "gold_rows": 16,
+        "predicted_rows": 16,
+        "matched_rows": 16,
+        "exact_rows": 16,
+        "value_correct": 16,
+        "unit_correct": 16,
+        "range_correct": 16,
+        "latency_seconds": 0.057,
+        "unmatched_gold": [],
+        "unmatched_predictions": []
+      },
+      {
+        "report": "report_03.pdf",
+        "gold_rows": 8,
+        "predicted_rows": 8,
+        "matched_rows": 8,
+        "exact_rows": 8,
+        "value_correct": 8,
+        "unit_correct": 8,
+        "range_correct": 8,
+        "latency_seconds": 0.582,
+        "unmatched_gold": [],
+        "unmatched_predictions": []
+      },
+      {
+        "report": "report_05.pdf",
+        "gold_rows": 14,
+        "predicted_rows": 9,
+        "matched_rows": 8,
+        "exact_rows": 1,
+        "value_correct": 5,
+        "unit_correct": 3,
+        "range_correct": 8,
+        "latency_seconds": 17.686,
+        "unmatched_gold": [
+          "Total RBC Count",
+          "MCV",
+          "MCHC",
+          "Neutrophils",
+          "Eosinophils",
+          "Basophils"
+        ],
+        "unmatched_predictions": [
+          "cv u"
+        ]
+      },
+      {
+        "report": "report_06.pdf",
+        "gold_rows": 12,
+        "predicted_rows": 8,
+        "matched_rows": 3,
+        "exact_rows": 0,
+        "value_correct": 1,
+        "unit_correct": 2,
+        "range_correct": 0,
+        "latency_seconds": 11.159,
+        "unmatched_gold": [
+          "Clarity",
+          "pH",
+          "Albumin",
+          "Sugar",
+          "Ketones",
+          "Leucocytes",
+          "Erythrocytes",
+          "Squamous Epithelial Cells",
+          "CRP"
+        ],
+        "unmatched_predictions": [
+          "pH <a 65 50-80 Leucocytes",
+          "Specific Gravity",
+          "Albumin Negative | Negative Squamous Epithelial Cells | 1",
+          "CRP <05 — <5.0 mg/L E.S.R. (Westergren)",
+          "pH im | 50-80 Leucocytes l"
+        ]
+      },
+      {
+        "report": "report_08.jpg",
+        "gold_rows": 6,
+        "predicted_rows": 6,
+        "matched_rows": 6,
+        "exact_rows": 6,
+        "value_correct": 6,
+        "unit_correct": 6,
+        "range_correct": 6,
+        "latency_seconds": 1.67,
+        "unmatched_gold": [],
+        "unmatched_predictions": []
+      },
+      {
+        "report": "report_09.jpg",
+        "gold_rows": 14,
+        "predicted_rows": 13,
+        "matched_rows": 12,
+        "exact_rows": 7,
+        "value_correct": 11,
+        "unit_correct": 7,
+        "range_correct": 12,
+        "latency_seconds": 1.699,
+        "unmatched_gold": [
+          "Hemoglobin (Hb)",
+          "Hematocrit"
+        ],
+        "unmatched_predictions": [
+          "l tematoorit"
+        ]
+      },
+      {
+        "report": "report_11.pdf",
+        "gold_rows": 54,
+        "predicted_rows": 54,
+        "matched_rows": 54,
+        "exact_rows": 48,
+        "value_correct": 52,
+        "unit_correct": 50,
+        "range_correct": 50,
+        "latency_seconds": 0.092,
+        "unmatched_gold": [],
+        "unmatched_predictions": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "tests": [
+    {
+      "test_name": "nga. TSH (Utrasensitive)",
+      "value": 184,
+      "unit": null,
+      "reference_range": "0.27 - 4.20"
+    },
+    {
+      "test_name": "moa S. Sodium",
+      "value": 138,
+      "unit": null,
+      "reference_range": "136 - 146"
+    },
+    {
+      "test_name": "mgt S. Potassium",
+      "value": 3.1,
+      "unit": null,
+      "reference_range": "3.5 - 5.1"
+    },
+    {
+      "test_name": "moa S Crionde",
+      "value": 109,
+      "unit": null,
+      "reference_range": "98 - 107"
+    }
+  ]
+}

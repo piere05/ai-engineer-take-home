@@ -1,0 +1,52 @@
+{
+  "tests": [
+    {
+      "test_name": "Colour",
+      "value": "Dark Yellow",
+      "unit": null,
+      "reference_range": "Present (+) Negative"
+    },
+    {
+      "test_name": "pH <a 65 50-80 Leucocytes",
+      "value": 23,
+      "unit": null,
+      "reference_range": "0 - 5"
+    },
+    {
+      "test_name": "Specific Gravity",
+      "value": 1.02,
+      "unit": null,
+      "reference_range": "1.005 - 1.030"
+    },
+    {
+      "test_name": "Albumin Negative | Negative Squamous Epithelial Cells | 1",
+      "value": -2,
+      "unit": null,
+      "reference_range": "0 - 5"
+    },
+    {
+      "test_name": "CRP <05 — <5.0 mg/L E.S.R. (Westergren)",
+      "value": 13,
+      "unit": null,
+      "reference_range": "0 - 15"
+    },
+    {
+      "test_name": "pH im | 50-80 Leucocytes l",
+      "value": 23,
+      "unit": null,
+      "reference_range": "0 - 5"
+    },
+    {
+      "test_name": "Specific Gravity",
+      "value": 4.02,
+      "unit": null,
+      "reference_range": "4.005 - 1.030"
+    },
+    {
+      "test_name": "cRP | os | 5.0 mof. E.S.R. (Westergren)",
+      "value": 143,
+      "unit": null,
+      "reference_range": "0 - 18"
+    }
+  ]
+}
